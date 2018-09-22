@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+
+  <div class="hal">
+      <img src="on.jpg" alt="" width="90px"> <h1>AUTO LOAD</h1><br>
+      <iframe src="" width="795px" height="600px" id="play"></iframe>
+  </div>
+
+<script type="text/javascript">
+    var  play="";
+    //url play sekarang
+    var urlselanjutnya=".html";
+    //url halam selanjutnya
+setInterval(function() {
+                window.location.replace(urlselanjutnya);
+              }, 10500 * 1000);
+              //detik X 1000
+              //konversi dulu menit ke detik baru masukin
+              document.getElementById('play').src=play;
+</script>
+
+  </body>
+</html>

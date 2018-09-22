@@ -1,0 +1,16 @@
+
+body {
+  background: black;
+}
+
+h1 {
+  display: inline-block;
+  color: green;
+}
+.hal {
+background: white;
+border-bottom: 1px solid #eff2f6;
+width: 800px;
+height: 800px;
+margin: 0 auto;
+    }
